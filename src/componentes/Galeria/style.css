@@ -1,0 +1,68 @@
+.galleryContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.galleryContent img {
+    width: 260px;
+    height: 205px;
+}
+
+.SpaceIMG {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    background: #032a5e;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.SpaceIMG h3,
+.SpaceIMG p {
+    margin-left: 15px;
+    margin-bottom: 5px;
+
+
+}
+
+.SpaceIMG h3 {
+    width: 245px;
+    font-size: 17px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.SpaceIMG p {
+    font-size: 16px;
+}
+
+.SpaceIMG p {
+    margin-bottom: 15px;
+}
+
+#IMGpopulares {
+    margin-top: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#IMGpopulares img {
+    width: 180px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+#IMGpopulares a {
+    background: transparent;
+    border: 1px solid rgba(201, 140, 241, 1);
+    padding: 7px 53px;
+    border-radius: 10px;
+}
+
+#IMGpopulares a:hover {
+    border: 3px solid;
+    border-color: rgba(123, 120, 229, 1);
+    transition: 0.1s;
+}

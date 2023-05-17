@@ -1,0 +1,11 @@
+.DescriçãoBanner {
+    position: absolute;
+    left: 64px;
+    top: 92px;
+    font-size: 30px;
+    width: 240px;
+}
+
+.banner {
+    height: 300px;
+}

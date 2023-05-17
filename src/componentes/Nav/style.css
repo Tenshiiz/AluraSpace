@@ -1,0 +1,34 @@
+.ContentNavOne {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    margin-left: 3px;
+    margin-top: 20px;
+}
+
+.subContent {
+    display: flex;
+}
+
+.subContent p {
+    font-size: 20px;
+    color: white;
+
+}
+
+.NavIcons {
+    width: 24px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+#InicioActive {
+    color: rgba(123, 120, 229, 1);
+    font-weight: bold;
+}
+
+.subContent p:hover {
+    padding-top: 3px;
+    color: #7B78E5;
+    transition: 0.1s;
+}

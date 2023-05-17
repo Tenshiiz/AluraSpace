@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 190px;
+}
+
+.pesquisa {
+    border: 2px solid;
+    border-color: rgba(201, 140, 241, 1);
+    border-radius: 10px;
+    background: transparent;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    width: 500px;
+    padding: 5px;
+    background-image: url("../../imagens/etc/search.png");
+    background-repeat: no-repeat;
+    background-position: 480px;
+    padding-left: 1em;
+}
+
+.pesquisa:focus {}
+
+.pesquisa::placeholder {
+    color: rgb(139, 136, 136);
+}
